@@ -1,0 +1,14 @@
+{
+  "name": "servicos",
+  "version": "1.0.0",
+  "description": "Serviços rest para plataforma de contratação de prestadores de serciço",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rodrigo Kossmann",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
