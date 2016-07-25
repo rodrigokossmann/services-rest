@@ -2,10 +2,9 @@
 
 	var express = require('express');
     var app = express();
+	var bodyParser = require('body-parser')
 
-	app.get('/', function(req, res){
-    	res.send('Tá de pé!');
-  	});
+    app.use(bodyParser.json());
 
     app.use(require('./controllers'));
 

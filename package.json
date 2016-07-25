@@ -4,11 +4,15 @@
   "description": "Serviços rest para plataforma de contratação de prestadores de serciço",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rodrigo Kossmann",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.5"
   }
 }
